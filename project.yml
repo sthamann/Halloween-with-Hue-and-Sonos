@@ -1,0 +1,105 @@
+name: HalloweenSonos
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    macOS: '14.0'
+    iOS: '17.0'
+packages:
+  HalloweenLocal:
+    path: .
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    ENABLE_DEBUG_DYLIB: NO
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: '1.0'
+    CURRENT_PROJECT_VERSION: '3'
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+targets:
+  HauntMac:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/HalloweenApp
+      - path: Config/Assets.xcassets
+    dependencies:
+      - package: HalloweenLocal
+        product: HalloweenCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.Haunt
+        PRODUCT_NAME: Haunt
+        ENABLE_APP_SANDBOX: YES
+        CODE_SIGN_ENTITLEMENTS: Config/HauntMac.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Haunt
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.entertainment
+        INFOPLIST_KEY_NSLocalNetworkUsageDescription: Haunt findet Sonos und Hue und spielt deine Halloween-Szenen im lokalen Netzwerk.
+    info:
+      path: Config/Mac-Info.plist
+      properties:
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.entertainment
+        CFBundleURLTypes:
+          - CFBundleURLName: com.example.Haunt
+            CFBundleURLSchemes: [haunt]
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        NSMicrophoneUsageDescription: Haunt nimmt deine Stimme nur auf, wenn du im Stimmenlabor eine Aufnahme startest. Die Aufnahme bleibt auf deinem Gerät.
+        NSLocalNetworkUsageDescription: Haunt findet Sonos und Hue und spielt deine Halloween-Szenen im lokalen Netzwerk.
+  HauntIOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/HalloweenApp
+      - path: Config/Assets.xcassets
+    dependencies:
+      - package: HalloweenLocal
+        product: HalloweenCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.Haunt
+        PRODUCT_NAME: Haunt
+        TARGETED_DEVICE_FAMILY: '1,2'
+        GENERATE_INFOPLIST_FILE: YES
+    info:
+      path: Config/iOS-Info.plist
+      properties:
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleDisplayName: Haunt
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        CFBundleURLTypes:
+          - CFBundleURLName: com.example.Haunt
+            CFBundleURLSchemes: [haunt]
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        NSMicrophoneUsageDescription: Haunt nimmt deine Stimme nur auf, wenn du im Stimmenlabor eine Aufnahme startest. Die Aufnahme bleibt auf deinem Gerät.
+        NSLocalNetworkUsageDescription: Haunt findet Sonos und Hue und spielt deine Halloween-Szenen im lokalen Netzwerk.
+  HauntCommerceTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/HauntCommerceTests
+    dependencies:
+      - target: HauntIOS
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.Haunt.CommerceTests
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Haunt.app/Haunt"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        SWIFT_INCLUDE_PATHS: "$(BUILT_PRODUCTS_DIR)"
+schemes:
+  HauntMac:
+    build:
+      targets:
+        HauntMac: all
+  HauntIOS:
+    test:
+      debugEnabled: false
+      targets: [HauntCommerceTests]
+    build:
+      targets:
+        HauntIOS: all

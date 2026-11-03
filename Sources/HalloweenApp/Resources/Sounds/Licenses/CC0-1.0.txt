@@ -1,0 +1,8 @@
+CC0 1.0 Universal
+
+The third-party recordings in this bundle are offered under CC0 1.0 by their respective authors.
+Canonical license: https://creativecommons.org/publicdomain/zero/1.0/
+Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Sources and authors are listed in SOUND_CREDITS.md and sound-catalog.json.
+The original six generated Haunt effects are identified separately; they are not third-party CC0 recordings.

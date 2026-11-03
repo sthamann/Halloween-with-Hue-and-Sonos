@@ -1,0 +1,472 @@
+[
+  {
+    "id": "electric-crackle",
+    "name": "Elektrisches Spuk-Knistern",
+    "filename": "electric-crackle.wav",
+    "symbol": "bolt.fill",
+    "category": "Eigene Effekte",
+    "sha256": "b8f46ce90b8fb28c7ea945b27412c51e1169b0404b96a73fe77e3696f76ecabb"
+  },
+  {
+    "id": "heartbeat",
+    "name": "Herzschlag im Dunkeln",
+    "filename": "heartbeat.wav",
+    "symbol": "heart.fill",
+    "category": "Eigene Effekte",
+    "sha256": "b481fa64b4ca65e07cf79d6024121a37b9263152786eb1f906a709f2c0486efc"
+  },
+  {
+    "id": "storm",
+    "name": "Gewitter",
+    "filename": "storm.wav",
+    "symbol": "cloud.bolt.rain.fill",
+    "category": "Eigene Effekte",
+    "sha256": "7307829eefbfd8a89898d7f7a68f43cac9e73c44b79b8b03e7b069f3fef8c8b9"
+  },
+  {
+    "id": "knocks",
+    "name": "Klopfen an der Tür",
+    "filename": "knocks.wav",
+    "symbol": "door.left.hand.open",
+    "category": "Eigene Effekte",
+    "sha256": "fb86ea7c0778a0107e1fb44530b21dadca8620337a40ec8618cb8dcab55e6a58"
+  },
+  {
+    "id": "ghost",
+    "name": "Geisterchor",
+    "filename": "ghost.wav",
+    "symbol": "wind",
+    "category": "Eigene Effekte",
+    "sha256": "8374ec019d2cf712238544829b555accaade537476b17e7c789d73521fa57629"
+  },
+  {
+    "id": "laugh",
+    "name": "Unheimliches Kichern",
+    "filename": "laugh.wav",
+    "symbol": "theatermasks.fill",
+    "category": "Eigene Effekte",
+    "sha256": "76a4f230c47e466ed6de04fca3412c3fcd70fcbe11c26abd6f08d9328b7a1b88"
+  },
+  {
+    "id": "creak",
+    "name": "Die knarrende Tür",
+    "filename": "creak.wav",
+    "symbol": "door.right.hand.open",
+    "category": "Eigene Effekte",
+    "sha256": "2c5a06be5c37de7e7edc79d2d31669c9edb9a0d0e6b7b72acbccdcedb27590b9"
+  },
+  {
+    "id": "cc0-ghost-1",
+    "name": "Geisterstimme 1",
+    "filename": "cc0-ghost-1.wav",
+    "symbol": "wind",
+    "category": "Geister",
+    "credit": {
+      "author": "qubodup",
+      "sourceURL": "https://opengameart.org/content/ghost-monster-voice-moaning-growling",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/qubodup-GhostMoans.zip",
+      "archiveSHA256": "25962d146f4634a93efa7fbfe9cde63f4182189ced6105b4f92f23c65d8c2a43",
+      "originalMember": "qubodup-GhostMoans/wav/qubodup-GhostMoan01.wav",
+      "originalSHA256": "6ecb024d4cdc5cc85743faa79d41cd68f3d3e75d8faf3f23191311eac708efd4",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "0b4076bab1217fe0523c4e1559da957fbb74029bfa105a11522aaf5a5e411d8d",
+    "duration": 3.023673469387755
+  },
+  {
+    "id": "cc0-ghost-2",
+    "name": "Geisterstimme 2",
+    "filename": "cc0-ghost-2.wav",
+    "symbol": "wind",
+    "category": "Geister",
+    "credit": {
+      "author": "qubodup",
+      "sourceURL": "https://opengameart.org/content/ghost-monster-voice-moaning-growling",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/qubodup-GhostMoans.zip",
+      "archiveSHA256": "25962d146f4634a93efa7fbfe9cde63f4182189ced6105b4f92f23c65d8c2a43",
+      "originalMember": "qubodup-GhostMoans/wav/qubodup-GhostMoan02.wav",
+      "originalSHA256": "9fa1a4a133bd1d0c45e7a5998c9ea97df455b5ca6f790c0b80e3f43568475bff",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "57ad9ff5f69af5d678586d82fa120f3184ea11b50e9ac09af8086eb35c5ff4a2",
+    "duration": 5.1657142857142855
+  },
+  {
+    "id": "cc0-ghost-3",
+    "name": "Geisterstimme 3",
+    "filename": "cc0-ghost-3.wav",
+    "symbol": "wind",
+    "category": "Geister",
+    "credit": {
+      "author": "qubodup",
+      "sourceURL": "https://opengameart.org/content/ghost-monster-voice-moaning-growling",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/qubodup-GhostMoans.zip",
+      "archiveSHA256": "25962d146f4634a93efa7fbfe9cde63f4182189ced6105b4f92f23c65d8c2a43",
+      "originalMember": "qubodup-GhostMoans/wav/qubodup-GhostMoan03.wav",
+      "originalSHA256": "380b486d55a5e18109d570b5c8fa5c31c74d9d83764c6a093f61d8355e36ff5e",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "59eed7dade75099616efb8b9fa24e11d6e67b2b94811c3cae5b5dfeb3b98e360",
+    "duration": 5.737392290249433
+  },
+  {
+    "id": "cc0-ghost-4",
+    "name": "Geisterstimme 4",
+    "filename": "cc0-ghost-4.wav",
+    "symbol": "wind",
+    "category": "Geister",
+    "credit": {
+      "author": "qubodup",
+      "sourceURL": "https://opengameart.org/content/ghost-monster-voice-moaning-growling",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/qubodup-GhostMoans.zip",
+      "archiveSHA256": "25962d146f4634a93efa7fbfe9cde63f4182189ced6105b4f92f23c65d8c2a43",
+      "originalMember": "qubodup-GhostMoans/wav/qubodup-GhostMoan04.wav",
+      "originalSHA256": "5c2e1122bbd90f1b9fcf482debab61010e3aa3fd23c3cd29760e36a2d5c0f790",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "7fc5858fbf1a41bc6435594af51eb7738b639b135d41d694df052353300881db",
+    "duration": 4.952879818594104
+  },
+  {
+    "id": "cc0-ghost-5",
+    "name": "Geisterstimme 5",
+    "filename": "cc0-ghost-5.wav",
+    "symbol": "wind",
+    "category": "Geister",
+    "credit": {
+      "author": "qubodup",
+      "sourceURL": "https://opengameart.org/content/ghost-monster-voice-moaning-growling",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/qubodup-GhostMoans.zip",
+      "archiveSHA256": "25962d146f4634a93efa7fbfe9cde63f4182189ced6105b4f92f23c65d8c2a43",
+      "originalMember": "qubodup-GhostMoans/wav/qubodup-GhostMoan05.wav",
+      "originalSHA256": "fb987e07dffd1b546a37b587afa0995d55274caace3fcc7c692e532dafac4a18",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "87e44e5b38a56566aac2b21424bcb8e1182b637c2f7049b036a80bbfa9246d19",
+    "duration": 2.0
+  },
+  {
+    "id": "cc0-monster-1",
+    "name": "Monsterlaut 1",
+    "filename": "cc0-monster-1.wav",
+    "symbol": "pawprint.fill",
+    "category": "Monster",
+    "credit": {
+      "author": "Ogrebane",
+      "sourceURL": "https://opengameart.org/content/monster-sound-effects-pack",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/monster_sfx_pack.zip",
+      "archiveSHA256": "f39c5ae356b1fc01284057ee48e35ec1a52fcc84bfa959b77d0a696adc8459e4",
+      "originalMember": "monster_sfx_pack/monster-1.wav",
+      "originalSHA256": "eadff00fc48c13eede6255f97ca7bd47e8c44a4bef33edc5ced92f4ca3521575",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "d511d7694cab3d0055ce211fd1f1d7c146191a403c14c503489db4bafa89d9c3",
+    "duration": 2.0
+  },
+  {
+    "id": "cc0-monster-2",
+    "name": "Monsterlaut 2",
+    "filename": "cc0-monster-2.wav",
+    "symbol": "pawprint.fill",
+    "category": "Monster",
+    "credit": {
+      "author": "Ogrebane",
+      "sourceURL": "https://opengameart.org/content/monster-sound-effects-pack",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/monster_sfx_pack.zip",
+      "archiveSHA256": "f39c5ae356b1fc01284057ee48e35ec1a52fcc84bfa959b77d0a696adc8459e4",
+      "originalMember": "monster_sfx_pack/monster-2.wav",
+      "originalSHA256": "1c511470f5a01ec81e9f8a9889a9b13ecb27a0dbc14fadcffb022b346971afa8",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "e63cb698525088f89ddf49039e0da1d4528ca9c0ed8123563b1840f41581ff33",
+    "duration": 2.0
+  },
+  {
+    "id": "cc0-monster-3",
+    "name": "Monsterlaut 3",
+    "filename": "cc0-monster-3.wav",
+    "symbol": "pawprint.fill",
+    "category": "Monster",
+    "credit": {
+      "author": "Ogrebane",
+      "sourceURL": "https://opengameart.org/content/monster-sound-effects-pack",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/monster_sfx_pack.zip",
+      "archiveSHA256": "f39c5ae356b1fc01284057ee48e35ec1a52fcc84bfa959b77d0a696adc8459e4",
+      "originalMember": "monster_sfx_pack/monster-3.wav",
+      "originalSHA256": "22d83560604f25fea0b03b4710ed86c5afc739bdbb24b5e96b614803b02c07fd",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "acdbb0088afe65071f60d26b42ab431ce98d0266f8004ea1811474e3ed64a5f7",
+    "duration": 2.0
+  },
+  {
+    "id": "cc0-monster-4",
+    "name": "Monsterlaut 4",
+    "filename": "cc0-monster-4.wav",
+    "symbol": "pawprint.fill",
+    "category": "Monster",
+    "credit": {
+      "author": "Ogrebane",
+      "sourceURL": "https://opengameart.org/content/monster-sound-effects-pack",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/monster_sfx_pack.zip",
+      "archiveSHA256": "f39c5ae356b1fc01284057ee48e35ec1a52fcc84bfa959b77d0a696adc8459e4",
+      "originalMember": "monster_sfx_pack/monster-4.wav",
+      "originalSHA256": "23cb32d814846c22e5141e69f90814d9b3d9e283219e48fbb798f19d1a1bb35f",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "8325374f719799b5d4b5cee88acabbd5ec9e0b1311af2b94aa3e71ac218241a5",
+    "duration": 2.0
+  },
+  {
+    "id": "cc0-monster-5",
+    "name": "Monsterlaut 5",
+    "filename": "cc0-monster-5.wav",
+    "symbol": "pawprint.fill",
+    "category": "Monster",
+    "credit": {
+      "author": "Ogrebane",
+      "sourceURL": "https://opengameart.org/content/monster-sound-effects-pack",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/monster_sfx_pack.zip",
+      "archiveSHA256": "f39c5ae356b1fc01284057ee48e35ec1a52fcc84bfa959b77d0a696adc8459e4",
+      "originalMember": "monster_sfx_pack/monster-5.wav",
+      "originalSHA256": "54d433b16399b0f155cf7a0cadf397625765a894f649f9512663c98c901a6eed",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "47f15bb0aeed9a7ce6966595ba21cef7d6c45a8304731d512ea14bc41784e8a2",
+    "duration": 2.0
+  },
+  {
+    "id": "cc0-monster-6",
+    "name": "Monsterlaut 6",
+    "filename": "cc0-monster-6.wav",
+    "symbol": "pawprint.fill",
+    "category": "Monster",
+    "credit": {
+      "author": "Ogrebane",
+      "sourceURL": "https://opengameart.org/content/monster-sound-effects-pack",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/monster_sfx_pack.zip",
+      "archiveSHA256": "f39c5ae356b1fc01284057ee48e35ec1a52fcc84bfa959b77d0a696adc8459e4",
+      "originalMember": "monster_sfx_pack/monster-6.wav",
+      "originalSHA256": "8aac51b6b0d058bf8a78000463897a3e633e3012f6517b6de3e36e453d6ad772",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "141a4030a1e217d6c0d736e2047e83e02b09f21bd1266938ce62b6c3f86c4592",
+    "duration": 2.0
+  },
+  {
+    "id": "cc0-hit-high",
+    "name": "Schriller Schreckmoment",
+    "filename": "cc0-hit-high.wav",
+    "symbol": "bolt.fill",
+    "category": "Schreckeffekte",
+    "credit": {
+      "author": "psychhead_",
+      "sourceURL": "https://opengameart.org/content/horror-hit-soundpack-1",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/horror_hit_soundpack_1.zip",
+      "archiveSHA256": "4bbdba64225d2ad2f5d23a04d71ccb18e6567c42f972a7f2dcb66d8acc5ed4f3",
+      "originalMember": "Horror Hit Soundpack 1/Sound/Pitches/High/High 1.wav",
+      "originalSHA256": "38160f3290d3ad72b76b37afbd8eacb6ad502e9fc51b96ca8daea892c50a735a",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "e6620b6f60e8bf36908e125eabe46988987b98e459f73aa2305f03ef85debf2a",
+    "duration": 4.151428571428571
+  },
+  {
+    "id": "cc0-hit-mid",
+    "name": "Dunkler Schreckmoment",
+    "filename": "cc0-hit-mid.wav",
+    "symbol": "bolt.fill",
+    "category": "Schreckeffekte",
+    "credit": {
+      "author": "psychhead_",
+      "sourceURL": "https://opengameart.org/content/horror-hit-soundpack-1",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/horror_hit_soundpack_1.zip",
+      "archiveSHA256": "4bbdba64225d2ad2f5d23a04d71ccb18e6567c42f972a7f2dcb66d8acc5ed4f3",
+      "originalMember": "Horror Hit Soundpack 1/Sound/Pitches/Mid/Mid 1.wav",
+      "originalSHA256": "d6a93746cb34e4994ba12738e57bc63fa538829f4f30fe00670264ae6b207ab4",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "5e8ac7c814dfbc6c37c4c0791df63a301d027de573f07d8b0cec4fffb8b95cf9",
+    "duration": 5.3192290249433105
+  },
+  {
+    "id": "cc0-hit-bass",
+    "name": "Tiefer Horror-Schlag",
+    "filename": "cc0-hit-bass.wav",
+    "symbol": "bolt.fill",
+    "category": "Schreckeffekte",
+    "credit": {
+      "author": "psychhead_",
+      "sourceURL": "https://opengameart.org/content/horror-hit-soundpack-1",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/horror_hit_soundpack_1.zip",
+      "archiveSHA256": "4bbdba64225d2ad2f5d23a04d71ccb18e6567c42f972a7f2dcb66d8acc5ed4f3",
+      "originalMember": "Horror Hit Soundpack 1/Sound/Pitches/Bassy/Bassy 1.wav",
+      "originalSHA256": "5230abfe92bbc31e90540aeff3ccae8b1afc0c17f7c7939a1790f5bb0676b3f1",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "7a6e966cc0bd068da1030cd86625b04efcba94eee58ba485551c3bd37d17b594",
+    "duration": 5.285056689342404
+  },
+  {
+    "id": "cc0-hit-deep",
+    "name": "Abgrund-Schlag",
+    "filename": "cc0-hit-deep.wav",
+    "symbol": "bolt.fill",
+    "category": "Schreckeffekte",
+    "credit": {
+      "author": "psychhead_",
+      "sourceURL": "https://opengameart.org/content/horror-hit-soundpack-1",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/horror_hit_soundpack_1.zip",
+      "archiveSHA256": "4bbdba64225d2ad2f5d23a04d71ccb18e6567c42f972a7f2dcb66d8acc5ed4f3",
+      "originalMember": "Horror Hit Soundpack 1/Sound/Pitches/Very Bassy/Very Bassy 1.wav",
+      "originalSHA256": "fb046e441910514a14457f876debe6a872d9d5498c5e5c397ff75182cb68e7bf",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "e693ba35a75b32c50ccb180ffce18eceb18bb91b15fb0b0f6027953086611b8b",
+    "duration": 4.774965986394558
+  },
+  {
+    "id": "cc0-hit-high-alt",
+    "name": "Schriller Schreckmoment 2",
+    "filename": "cc0-hit-high-alt.wav",
+    "symbol": "bolt.fill",
+    "category": "Schreckeffekte",
+    "credit": {
+      "author": "psychhead_",
+      "sourceURL": "https://opengameart.org/content/horror-hit-soundpack-1",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/horror_hit_soundpack_1.zip",
+      "archiveSHA256": "4bbdba64225d2ad2f5d23a04d71ccb18e6567c42f972a7f2dcb66d8acc5ed4f3",
+      "originalMember": "Horror Hit Soundpack 1/Sound/Pitches/High/High 5.wav",
+      "originalSHA256": "379c4af162a71a4018e9917afdf856cd5694dc58acc12a004506eae31319ecf1",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "09839cf4832f61a8736eeacf6941f3dff4834202f2b19c0a8246a06b29c79406",
+    "duration": 4.294739229024943
+  },
+  {
+    "id": "cc0-hit-mid-alt",
+    "name": "Dunkler Schreckmoment 2",
+    "filename": "cc0-hit-mid-alt.wav",
+    "symbol": "bolt.fill",
+    "category": "Schreckeffekte",
+    "credit": {
+      "author": "psychhead_",
+      "sourceURL": "https://opengameart.org/content/horror-hit-soundpack-1",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/horror_hit_soundpack_1.zip",
+      "archiveSHA256": "4bbdba64225d2ad2f5d23a04d71ccb18e6567c42f972a7f2dcb66d8acc5ed4f3",
+      "originalMember": "Horror Hit Soundpack 1/Sound/Pitches/Mid/Mid 5.wav",
+      "originalSHA256": "500a975cc9a805c0be03640a66847d5d368e82a67a3c7cbb7202fe06bd691759",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "1f83c1ca350e8325dbc84a125e920ab22f16f97d892354d99e2164ec9951d271",
+    "duration": 4.937913832199547
+  },
+  {
+    "id": "cc0-ambient-horror",
+    "name": "Düstere Horror-Atmosphäre",
+    "filename": "cc0-ambient-horror.wav",
+    "symbol": "moon.fog.fill",
+    "category": "Atmosphäre",
+    "credit": {
+      "author": "techiew",
+      "sourceURL": "https://opengameart.org/content/ambient-horror",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "provenance": {
+      "downloadURL": "https://opengameart.org/sites/default/files/ambient_horror.wav",
+      "archiveSHA256": "23b0da9d4c92e58f76f88dc852579dabcc7acfe84a4ade7de6e01ce7e59b9c25",
+      "originalMember": "ambient_horror.wav",
+      "originalSHA256": "23b0da9d4c92e58f76f88dc852579dabcc7acfe84a4ade7de6e01ce7e59b9c25",
+      "verifiedOn": "2026-10-12",
+      "transformation": "Mono PCM16 WAV / 44100 Hz; peak attenuation only to <= -6 dBFS; trailing silence to minimum 2 seconds for short clips"
+    },
+    "sha256": "32b78dec6bc11cc743dc77ebe05fe45ad733072ff00ac2b194365934bcce3861",
+    "duration": 22.186666666666667
+  }
+]
