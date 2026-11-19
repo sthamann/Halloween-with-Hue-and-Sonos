@@ -128,3 +128,7 @@ Haunt is an independent project by Stefan Hamann. Sonos and Philips Hue are comp
 The bundled third party recordings use **CC0 1.0 Universal**. Authors, original sources and processing notes are listed in [SOUND_CREDITS.md](SOUND_CREDITS.md) and the bundled sound catalog. Original generated effects are identified separately.
 
 The software source is publicly available. No separate software license is granted by this repository. Third party audio retains its stated CC0 terms.
+
+## Author
+
+Built by [Stefan Hamann](https://stefan-hamann.de/), co-founder of Shopware and author of the handbook [Agentic Commerce](https://www.agentic-commerce.sh/).
